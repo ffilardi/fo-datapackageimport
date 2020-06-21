@@ -1,0 +1,16 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "<function-storage-conn-string>",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "ClientId": "",
+    "ClientSecret": "",
+    "ProjectName": "",
+    "Resource": "https://<d365-environment-url>.com",
+    "Tenant": "",
+    "LegalEntity": "",
+    "StorageAccountName": "<data-package-storage-acc-name>",
+    "StorageAccountKey": "<data-package-storage-acc-key>",
+    "StorageTable": "<log-table-name>"
+  }
+}
