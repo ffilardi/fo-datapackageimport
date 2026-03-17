@@ -39,7 +39,7 @@ namespace FO_DataPackageImport
                     destinationUrl, token);
 
                 if (String.IsNullOrEmpty(executionId))
-                    throw new Exception($"Package '{name}' coudln't be loaded");
+                    throw new Exception($"Package '{name}' couldn't be loaded");
 
                 log.LogInformation($"***** Data package '{name}' loaded (Execution Id '{executionId}')");
             }
